@@ -95,4 +95,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+    /*
+    //this is the function that will be called when clicks on numbers textview in the main activity
+    public void openNumbersList(View view)
+    {
+        //this refers to the current activity so if we press back button it return to it
+        Intent i=new Intent(this,NumbersActivity.class);
+        startActivity(i);
+    }
+    */
 }

@@ -24,6 +24,8 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
+                /*this indicates that this is the entry point into our app when a user taps on the MIWOK app icon in the device, Android
+                will send an intent to start our app,This activity will receive that intent and open up the screen
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
